@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            background-color:rgb(83, 56, 56);
+            font-family: Calibri;
+            font-size: 10pt;
+        }
+
+        select {
+            width:100%;
+            border-radius:5px;
+            height:25px;
+        }
+
+        .content {
+            vertical-align: middle;
+            background-color: #fff;
+            border-radius:10px;
+            padding:20px;
+            padding-top:3px;
+            width:100%;
+            max-width:300px;
+            box-shadow: 0px 3px 5px 5px rgba(0,0,0,0.2);
+        }
+
+        .center {
+            position:fixed;
+            width:300px;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="center">
+        <div class="content">
+            <h1>Seletor de Cidades</h1>
+            <p>
+                <p>Selecione um estado:</p>
+                <select id="UF">
+                    <option></option>
+                </select>
+            </p>
+            <div style="height:2px"></div>
+            <p>
+                <p>Selecione uma cidade:</p>
+                <select id="cidade">
+                    <option></option>
+                </select>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
